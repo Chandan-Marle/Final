@@ -10,4 +10,6 @@ app.use(express.static('public'));
 const database = new Datastore('database.db');
 database.loadDatabase();
 
-database.insert("hell0");
+var x = 5;
+
+database.insert(x);

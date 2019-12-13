@@ -23,7 +23,11 @@
   },
   "homepage": "https://github.com/Chandan-Marle/Final#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
-    "nedb": "^1.8.0"
+    "mongoose": "^5.8.1",
+    "nedb": "^1.8.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
   }
 }
